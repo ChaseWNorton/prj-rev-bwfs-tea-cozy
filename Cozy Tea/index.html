@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Cozy Tea</title>
+  <!--Reset CSS needed to deal with margin and padding issues-->
+  <link rel = "stylesheet" href = "src/styles/reset.css" type= "text/css">
+  <link rel = "stylesheet" href = "src/styles/style.css" type="text/css">
+
+</head>
+<!--Body HTML Begin-->
+
+<body>
+
+<!--Main Section-->
+  
+  <main>
+    
+    <!--Header - Logo - Nav-->
+    
+    <header>
+      <div class="logo">
+        <img src="src/media/images/tea-logo-resize.png" alt="Tea Cozy Logo in script font" />
+      </div>
+      <nav>
+        <!--Utilized the "One Page" Feature of the Nav-->
+        <!--Must figure out how to deal with the margin adjustment-->
+        <span><a href="#mission">Mission</a></span>
+        <span><a href="#start_cat">Featured Tea</a></span>
+        <span><a href="#locations">Locations</a></span>
+      </nav>
+    </header>
+    
+    <!--Hero Section - Mission-->
+    
+    <section class="hero_section">
+      <div id="mission">
+        <div class="title">
+          <h2> Our Mission </h2>
+        </div>
+        <div class="subtitle">
+          <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+        </div>
+      </div>
+    </section>
+    
+    <!--Category Section - Tea Of the Month-->
+    
+    <section id="start_cat" class="cat_section">
+      <header>
+        <div class="title">
+          <h2> Tea of the Month</h2>
+        </div>
+        <div class="subtitle">
+          <h4>What's Steeping at The Tea Cozy</h4>
+        </div>
+      </header>
+      <!--Tried two rows at first, but found it easier to make one-->
+      <!--row that flex wraps-->
+      <section class="first_row">
+        <div class="child">
+          <div class="over">
+          <img src="src/media/images/berryblitzresize.jpg" alt="Cup of Berry Blitz Tea on a wooden table" />
+            <!--Attempted a simple overlay for acting like a purchase-->
+          <div class="overlay">
+            <div class="overlay_button"><a href="#">Buy Now!</a></div>
+          </div>
+          </div>
+          <h4>Fall Berry Blitz Tea</h4>
+        </div>
+        <div class="child">
+          <div class="over">
+          <img src="src/media/images/rumtea.jpg" alt="A box of rum tea that has the words It pays to buy good tea written on the side" />
+           <div class="overlay">
+            <div class="overlay_button"><a href="#">Buy Now!</a></div>
+          </div>
+        </div>
+          <h4>Spice Rum Tea</h4>
+        </div>
+        <div class="child">
+          <div class="over">
+          <img src="src/media/images/donut.jpg" alt="A donut with powder sugar sitting on a white plate" />
+            <div class="overlay">
+            <div class="overlay_button"><a href="#">Buy Now!</a></div>
+          </div>
+        </div>
+          <h4>Seasonal Donuts</h4>
+        </div>
+        <div class="child">
+        <div class="over">
+          <img src="src/media/images/myrtletea.jpg" alt="Cup of Myrtle Ave Tea already steeped" />
+            <div class="overlay">
+            <div class="overlay_button"><a href="#">Buy Now!</a></div>
+            </div>
+            </div>
+          <h4>Myrtle Ave Tea</h4>
+        </div>
+        <div class="child">
+         <div class="over">
+          <img src="src/media/images/bedfordtea.jpg" alt="Cup of Bedford Bizarre Tea" />
+            <div class="overlay">
+            <div class="overlay_button"><a href="#">Buy Now!</a></div>
+          </div>
+         </div>
+          <h4>Bedford Bizarre Tea</h4>
+        </div>
+      </section>
+    </section>
+    
+    <!--Location Section for various store addresses-->
+    
+    <section id="locations">
+      <header>
+        <h2>Locations</h2>
+      </header>
+      <section id="addresses">
+        <div class="single_address">
+          <div><h3>Downtown</h3></div>
+          <div><h4>384 West 4th St.</h4></div>
+          <div><h4>Suite 108</h4></div>
+          <div><h4>Portland, Maine</h4></div>
+        </div>
+        <div class="single_address">
+          <div><h3>East Bayside</h3></div>
+          <div><h4>3433 Phisherman's Avenue</h4></div>
+          <div><h4>(Northwest Corner)</h4></div>
+          <div><h4>Portland, Maine</h4></div>
+        </div>
+        <div class="single_address">
+          <div><h3>Oakdale</h3></div>
+          <div><h4>515 Crescent Avenue</h4></div>
+          <div><h4>Second Floor</h4></div>
+          <div><h4>Portland, Maine</h4></div>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <!--Footer Section - Boring!-->
+
+  <footer>
+    <div><h2>The Tea Cozy</h2></div>
+    <div><h5> contact@theteacozy.com</h5></div>
+    <div><h5> 917-555-8904</h5></div>
+  </footer>
+ 
+  <!--Copyright Section-->
+
+  <section class="copyright">
+    <div><h5>copyright The Tea Cozy 2017</h5></div>
+  </section>
+</body>
+</html>
